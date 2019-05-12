@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/reset.css">
 	<link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<header class="main-header">
@@ -32,7 +33,7 @@
 		<div class="container">
 			<div class="news-header">
 				<div class="article-container">
-					<article class="article-item left">
+					<article class="article-item left" data-aos="fade-right">
 						<img class="article-image" src="images/img-1.jpg" alt="artilce images">
 						<div class="article-text">
 							<p>Lifestyle</p>
@@ -40,7 +41,7 @@
 							<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
 						</div>
 					</article>
-					<article class="article-item right">
+					<article class="article-item right" data-aos="fade-left">
 						<img class="article-image" src="images/img-2.jpg" alt="artilce images">
 						<div class="article-text">
 							<p>Lifestyle</p>
@@ -56,7 +57,7 @@
 		<div class="container">
 			<div class="news-header">
 				<div class="article-container">
-					<article class="article-item left">
+					<article class="article-item left" data-aos="fade-right">
 						<img class="article-image" src="images/img-3.jpg" alt="artilce images">
 						<div class="article-text">
 							<p>photodiary</p>
@@ -65,7 +66,7 @@
 						<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
 						</div>
 					</article>
-					<article class="article-item right">
+					<article class="article-item right" data-aos="fade-left">
 						<img class="article-image" src="images/img-4.jpg" alt="artilce images">
 						<div class="article-text">
 							<p>photodiary</p>
@@ -88,7 +89,7 @@
 			<div class="container">
 				<div class="news-header">
 					<div class="article-container">
-						<article class="article-item left">
+						<article class="article-item left" data-aos="fade-right">
 							<img class="article-image" src="images/img-5.jpg" alt="artilce images">
 							<div class="article-text">
 								<p>lifestyle</p>
@@ -96,7 +97,7 @@
 								<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
 							</div>
 						</article>
-						<article class="article-item right">
+						<article class="article-item right"  data-aos="fade-left">
 							<img class="article-image" src="images/img-6.jpg" alt="artilce images">
 							<div class="article-text">
 								<p>lifestyle</p>
@@ -109,8 +110,8 @@
 			</div>
 		</section>
 		<div class="more">
-			<div class="load-more">
-				<p><a href="#">Load more</a></p>
+			<a href="#"><div class="load-more">
+				<p>Load more</p></a>
 			</div>
 		</div></a>		
 	</main>
@@ -124,5 +125,9 @@
 			<a href="#"><img src="images/instagram.svg" alt="instagram"></a>
 		</div>
 	</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	  </script>
 </body>
 </html>
